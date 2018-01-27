@@ -55,7 +55,7 @@ class Hospital(object):
                 patient.info()
                 print ""
 
-dustin = Patient(999909, "Dustin Schroeder")
+dustin = Patient(999909, "Habiba Mohamed")
 lucian = Patient(666666, "Lucian el Chupa")
 frankie = Patient(101010, "Frankie Binary")
 excelcior = Patient(876543, "EXCELCIOR THE GREAT", ["Shellfish", "Ambien"])
