@@ -55,13 +55,13 @@ class Hospital(object):
                 patient.info()
                 print ""
 
-dustin = Patient(999909, "Habiba Mohamed")
+habiba = Patient(999909, "Habiba Mohamed")
 lucian = Patient(666666, "Lucian el Chupa")
 frankie = Patient(101010, "Frankie Binary")
 excelcior = Patient(876543, "EXCELCIOR THE GREAT", ["Shellfish", "Ambien"])
 
 sacredHeart = Hospital("Sacred Heart", 3)
 
-sacredHeart.admit(dustin).admit(lucian).admit(excelcior).admit(frankie).info()
+sacredHeart.admit(habiba).admit(lucian).admit(excelcior).admit(frankie).info()
 sacredHeart.discharge(dustin).admit(frankie).info()
-    
+  
