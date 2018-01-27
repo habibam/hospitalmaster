@@ -63,5 +63,5 @@ excelcior = Patient(876543, "EXCELCIOR THE GREAT", ["Shellfish", "Ambien"])
 sacredHeart = Hospital("Sacred Heart", 3)
 
 sacredHeart.admit(habiba).admit(lucian).admit(excelcior).admit(frankie).info()
-sacredHeart.discharge(dustin).admit(frankie).info()
+sacredHeart.discharge(habiba).admit(frankie).info()
   
